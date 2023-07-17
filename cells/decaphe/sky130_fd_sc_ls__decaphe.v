@@ -35,7 +35,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_ls__decaphe.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_ls__decaphe.behavioral.pp.v"
+`include "sky130_fd_sc_ls__decaphe.timing.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
@@ -43,7 +43,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_ls__decaphe.functional.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_ls__decaphe.behavioral.v"
+`include "sky130_fd_sc_ls__decaphe.timing.v"
 `endif // FUNCTIONAL
 
 `endif // USE_POWER_PINS
