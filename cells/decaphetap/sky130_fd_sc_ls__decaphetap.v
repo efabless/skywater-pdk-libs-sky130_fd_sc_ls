@@ -35,7 +35,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_ls__decaphetap.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_ls__decaphetap.behavioral.pp.v"
+`include "sky130_fd_sc_ls__decaphetap.timing.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
@@ -43,7 +43,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_ls__decaphetap.functional.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_ls__decaphetap.behavioral.v"
+`include "sky130_fd_sc_ls__decaphetap.timing.v"
 `endif // FUNCTIONAL
 
 `endif // USE_POWER_PINS
